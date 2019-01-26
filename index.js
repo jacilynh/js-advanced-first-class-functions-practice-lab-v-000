@@ -28,7 +28,7 @@ function driversByName(driver) {
   });
 }
 
-// Receives an array of `driver` objects and returns the sum of the revenue earned by each driver.
+// Receives an array of `driver` objects and returns the sum of the revenue earned by each driver. ****
 function totalRevenue(driver) {
   return driver.reduce(function (sum, value) {
     return sum + value.revenue;
