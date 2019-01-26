@@ -36,6 +36,6 @@ function totalRevenue(driver) {
 }
 
 // Receives an array of `driver` objects and returns the average revenue earned by each driver.
-function averageRevenue() {
-  return totalRevenue(driver) / driver.length;
+function averageRevenue(drivers) {
+  return totalRevenue(drivers) / drivers.length
 }
