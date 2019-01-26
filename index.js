@@ -35,6 +35,5 @@ function totalRevenue(driver) {
   }, 0);
 }
 
-
 // Receives an array of `driver` objects and returns the average revenue earned by each driver.
 // averageRevenue()
